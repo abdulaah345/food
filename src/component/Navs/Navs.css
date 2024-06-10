@@ -1,0 +1,13 @@
+Nav{
+    background-color: #ffff;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+Nav a{
+    color: #ab3550 !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
