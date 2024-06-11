@@ -3,11 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navs.css';
+import logo from './../../assets/ss.png'
 const Navs = () => {
   return (
          <Navbar expand="lg" >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={logo} title='logo'></img>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -21,7 +24,7 @@ const Navs = () => {
            
           </Nav>
           <Nav>
-            <Nav.Link >01025242523</Nav.Link>
+            <Nav.Link id='lastnav' >01025242523</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
